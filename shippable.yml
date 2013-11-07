@@ -1,7 +1,7 @@
 language: python
 python:
   - 2.7
-environment:
+env:
  - PGPASSWORD=xxHfqTGZaH0!
 install: pip install --use-mirrors -r requirements.txt
 before_script: psql -U xB44DA1851EBA8FD8 -d postgres --file=create_db.sql -w
