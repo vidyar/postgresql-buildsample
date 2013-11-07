@@ -1,0 +1,11 @@
+language: python
+python:
+  - 2.7
+environment:
+ - PGPASSWORD=foobar
+install: pip install --use-mirrors -r requirements.txt
+before_script: psql -U foo -d postgres --file=create_db.sql -w
+script: python pgsqlsample.py
+anguage: python
+python:
+  - 2.7
