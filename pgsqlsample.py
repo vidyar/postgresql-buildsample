@@ -1,9 +1,9 @@
 import psycopg2
 
-conn = psycopg2.connect("dbname='foodb' user='foo' password='foobar'")
+conn = psycopg2.connect("dbname='foodb' user='E801AAEC8BA9F6066' password='EyiMQNPNVfQG9!'")
 cur = conn.cursor();
 
-cur.execute("""insert into T1 (foo) values (10) """)
+cur.execute("""insert into T1 (foo int) values (10) """)
 
 cur.execute("""select * from T1""")
 rows = cur.fetchall()
