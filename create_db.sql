@@ -1,7 +1,7 @@
-drop database if exists E801AAEC8BA9F6066_foodb;
+drop database if exists xB44DA1851EBA8FD8_foodb;
 
-create database E801AAEC8BA9F6066_foodb;
+create database xB44DA1851EBA8FD8_foodb;
 
-\c E801AAEC8BA9F6066_foodb;
+\c xB44DA1851EBA8FD8_foodb;
 
 create table T1(foo int);
