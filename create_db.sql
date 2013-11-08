@@ -1,7 +1,7 @@
-drop database if exists jA78A5D53B48D32872_foodb;
+drop database if exists foodb;
 
-create database jA78A5D53B48D32872_foodb;
+create database foodb;
 
-\c jA78A5D53B48D32872_foodb;
+\c foodb;
 
 create table T1(foo int);
