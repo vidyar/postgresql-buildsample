@@ -1,6 +1,6 @@
 import psycopg2
 
-conn = psycopg2.connect("host='127.0.0.1' dbname='foodb' user='postgres' password='' ")
+conn = psycopg2.connect("host='127.0.0.1' dbname='foodb2' user='postgres' password='' ")
 cur = conn.cursor();
 
 cur.execute("""create table T1 (foo int)""")
