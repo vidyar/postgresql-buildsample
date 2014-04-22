@@ -1,3 +1,3 @@
-postgresql-buildsample
+Postgresql-buildsample
 ======================
 
