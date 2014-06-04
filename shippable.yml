@@ -6,3 +6,5 @@ before_script:
   - psql -c 'drop database if exists foodb2;' -U postgres -w
   - psql -c 'create database foodb2;' -U postgres -w
 script: python pgsqlsample.py
+addons:
+  postgresql: 9.3
