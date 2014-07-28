@@ -4,4 +4,4 @@
 	url = https://github.com/rails/rails-dev-box.git
 [submodule "sample_ruby"]
 	path = sample_ruby
-	url = git@github.com:vidyar/sample_ruby.git
+	url = https://github.com/vidyar/sample_ruby.git
