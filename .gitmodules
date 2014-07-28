@@ -1,4 +1,4 @@
 
 [submodule "rails-dev-box"]
 	path = rails-dev-box
-	url = git@github.com:rails/rails-dev-box.git
+	url = https://github.com/rails/rails-dev-box.git
