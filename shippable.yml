@@ -11,4 +11,6 @@ before_script:
   - psql -c 'create database foodb2;' -U postgres -w
   
 script: python pgsqlsample.py
+
+
 #build_image: shippable/minv2
